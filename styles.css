@@ -68,6 +68,11 @@ body {
     margin-bottom: auto;
 }
 
+.textPro {
+    font-size: 2em;
+    color: white;
+    font-weight: bold;
+}
 
 .icones {
     height: 10vh;
@@ -98,3 +103,12 @@ body {
     background-color: black;
 }
 
+#resume, #contact {
+    color: white;
+    border: 1px solid white;
+    width: 5vw;
+    margin-top: 5%;
+    margin-bottom: 2%;
+    margin-left: auto;
+    margin-right: auto;
+}
