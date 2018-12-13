@@ -1,7 +1,11 @@
+body {
+    text-align: center;
+    font-family:  'Open Sans', sans-serif;
+}
+
 #container {
     display: flex;
     justify-content: center;
-
 }
 
 #block {
@@ -11,16 +15,19 @@
 
 #ligne1, #ligne2, #ligne3{
     height: 31vh;
+    display: inline-flex;
+    text-align: center;
 }
 
 .carre{
-     display: inline-flex;
-     width: 15vw;
+    width: 15vw;
     height: 31vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
 }
 
 #cube1 {
-    display: inline-flex;
     background-color: #35bc7a;
     width: 30.2vw;
     height: 31vh;
@@ -29,7 +36,7 @@
 
 #cube2 {
     background-color: #ff9f00;
-    display: inline-flex;
+
 }
 
 #cube3 {
@@ -58,11 +65,13 @@
 .text {
     color: white;
     text-align: center;
+    margin-bottom: auto;
 }
 
 
 .icones {
     height: 10vh;
+    width: 6vw;
     margin: auto;
 }
 
