@@ -20,7 +20,7 @@ var i=0;
     });
 
     document.getElementById("slide3").addEventListener("click", function () {
-        if (i < 3) {
+        if (i < 2) {
             i++;
             console.log(i);
             document.getElementById("slideT").src = Tab[i].image;

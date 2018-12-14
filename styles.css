@@ -168,7 +168,7 @@ body {
     #slideT {
         display: inline-flex;
         width: 80vw;
-        height: auto;
+        height: 100vh;
     }
     .textPro {
         font-size: 1em;
