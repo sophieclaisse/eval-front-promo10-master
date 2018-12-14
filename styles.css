@@ -114,6 +114,10 @@ body {
     margin-right: auto;
 }
 
+.icon {
+   margin-top: 40vh;
+}
+
 @media only screen and (min-device-width: 320px) and (max-device-width: 820px) {
     body{
         margin: 0;
@@ -131,7 +135,7 @@ body {
 
 
     #ligne1{
-        height: 60vh;
+        height: 100vh;
         display: flex;
         justify-content: center;
         flex-direction: column;
@@ -139,7 +143,7 @@ body {
     }
 
     #ligne2, #ligne3{
-        height: 80vh;
+        height:160vh;
         display: flex;
         justify-content: center;
         flex-direction: column;
@@ -149,7 +153,6 @@ body {
 
     #cube1 {
         padding-top: 5%;
-
         width: 100vw;
         height: 60vh;
 
@@ -165,7 +168,7 @@ body {
     #slideT {
         display: inline-flex;
         width: 80vw;
-        height: 100vh;
+        height: auto;
     }
     .textPro {
         font-size: 1em;
@@ -177,11 +180,13 @@ body {
         color: white;
         border: 1px solid white;
         width: 25vw;
-        margin-top: 5%;
-        margin-bottom: 2%;
+        margin-top: 7%;
+        margin-bottom: 1%;
         margin-left: auto;
         margin-right: auto;
     }
+
+
 
     #black1, #black2 {
         display: inline-flex;
@@ -191,9 +196,14 @@ body {
     }
 
     .icones {
-        height: 10vh;
-        width: 15vw;
+        height: 20vh;
+        width: auto;
         margin: auto;
+    }
+
+
+    .icon {
+        margin-top: 40vh;
     }
 }
 
