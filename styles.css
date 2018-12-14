@@ -9,8 +9,9 @@ body {
 }
 
 #block {
-    width:46vw;
+    width:45vw;
     height: 93vh;
+
 }
 
 #ligne1, #ligne2, #ligne3{
@@ -87,7 +88,7 @@ body {
 
 #slide1, #slide2, #slide3 {
     display: inline-flex;
-    background-color: black;
+    background-color: #1e8bc3;
 }
 
 #slideT {
@@ -100,7 +101,7 @@ body {
     display: inline-flex;
     width: 5vw;
     height: 10vh;
-    background-color: black;
+    background-color: #1e8bc3;
 }
 
 #resume, #contact {
@@ -147,7 +148,8 @@ body {
 
 
     #cube1 {
-        background-color: #35bc7a;
+        padding-top: 5%;
+
         width: 100vw;
         height: 60vh;
 
@@ -185,7 +187,7 @@ body {
         display: inline-flex;
         width: 10vw;
         height: 10vh;
-        background-color: black;
+
     }
 
     .icones {
@@ -194,3 +196,4 @@ body {
         margin: auto;
     }
 }
+
