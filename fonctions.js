@@ -8,18 +8,30 @@ document.getElementById("slideT").src = Tab[0].image;
 
 var i=0;
 
-document.getElementById("slide1").addEventListener("click", function () {
-    if (i < 3) {
-        i++;
-        document.getElementById("slideT").src = Tab[i].image;
-    }
 
-});
 
-document.getElementById("slide3").addEventListener("click", function () {
-    if (i < 3) {
-        i--;
-        document.getElementById("slideT").src = Tab[i].image;
-    }
+    document.getElementById("slide1").addEventListener("click", function () {
+        if (i >= 0) {
+            i--;
+            console.log(i);
+            document.getElementById("slideT").src = Tab[i].image;
+        }
 
-});
+    });
+
+    document.getElementById("slide3").addEventListener("click", function () {
+        if (i < 3) {
+            i++;
+            console.log(i);
+            document.getElementById("slideT").src = Tab[i].image;
+        }
+
+
+    });
+
+
+
+
+
+
+
